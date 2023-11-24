@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: goldenrod;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px 20px;
+   
+}
+.login_btn{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+h1{
+    margin-top: 50px;
+    font-size: 100px;
+    padding-left: 60px;
+
+}
+p{
+font-size: 30px;
+padding-left: 60px;
+}
+.btn{
+    padding-left: 60px;
+    margin-top: 40px;
+}
+.btn a{
+    background-color: green;
+    text-decoration: none;
+    width: 100px;
+    margin-left: 40px;
+  
+    border-radius: 5px;
+    padding: 15px;
+}
+.btn input{
+    padding: 10px;
+}
+
