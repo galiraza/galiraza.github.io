@@ -83,3 +83,50 @@ color: white;
     margin: 50px 0;
 }
 
+
+/* Categoeis section */
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.samll-container{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 25px;
+}
+.row{
+    display: flex;
+}
+.col-4{
+    width: 100%;
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+
+}
+.feature_products_container{
+    padding: 0 100px;
+}
+.products_container{
+    display: flex;
+   justify-content: space-around;
+    flex-wrap: wrap;
+    
+   
+}
+.products_container img{
+    width: 200px;
+    height: 200px;
+}
+.product-item{
+    margin-right: 10px;
+    flex-wrap: wrap;
+    flex-basis:25%;
+}
