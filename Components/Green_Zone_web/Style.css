@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background: url('images/amazon_logo.png');
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.add-icon{
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+}
+/* till 28-46s tak i have watched it */
