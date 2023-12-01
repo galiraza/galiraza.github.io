@@ -15,6 +15,8 @@
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .nav-logo{
     height: 50px;
@@ -36,3 +38,201 @@
     align-items: center;
 }
 /* till 28-46s tak i have watched it */
+
+/* box 3 style */
+.nav-search{
+    margin-left: 7px;
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-search:hover{
+    
+    border: 2px solid #febd58;
+
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+   height: 100%;
+   padding-left: 5px;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd58;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+
+/* box 4 styling  */
+
+ span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* cart nav bar */
+.nav-cart i{
+font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* panel section */
+.panel{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+}
+.panel-options{
+    width: 75%;
+    font-size: 0.85rem;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url('./images/hero_image.jpg');
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+.hero-msg{
+    background-color: white;
+    color:black;
+    height: 25px;
+    width: 80%;
+    margin-bottom: 20px; 
+}
+.hero-section{
+    background-color: white;
+}
+/* shoping section */
+.box{
+    /* height: 400px; */
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+   margin: 10px 0;
+    border-radius: 10px;
+    box-shadow:3px 2px 6px grey;
+}
+.shoping-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background-color: #a2f0e1;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #cccccc;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin: 1rem 0;
+}
+/* footer section */
+footer{
+    background-color: #222f3d;
+    margin-top: 15px;
+}
+.foot-panel_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #374753;
+    height: 50px;
+    font-size: 0.5rem;
+}
+.foot-panel-2{
+    background-color:#222f3d ;
+    color: white;
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.foot-panel-2 ul a{
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel-3{
+  
+    border-top: 0.5px solid gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+   
+}
+.foot-panel-4{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80px;
+    text-align: center;
+
+}
+.pages{
+font-size: 0.7rem;
+padding-top: 20px;
+}
+.copy-right{
+   
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
