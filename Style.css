@@ -1,147 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
-.header{
-    background: radial-gradient(#fff,#ffd6d6);
-   
+.container {
+  background-color: #efefef;
+  box-shadow: 14px 2xp 5px rgb(24 222, 32/20%);
 }
-.header .row{
-    margin: 50px 0;
-}
-
-.container{
-    max-width: 1300px;
-    margin: auto;
-    padding: 25px;
-   
-}
-
-
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
-
+    justify-content: center;
+    padding: 10px;
 }
-nav{
+nav {
     flex: 1;
     text-align: right;
 }
-nav ul{
+nav ul {
     display: inline-block;
     list-style-type: none;
 }
-nav ul li{
+nav ul li {
     display: inline-block;
     margin-right: 20px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: #555;
-}
-p{
-    color: #555;
-}
-
-
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 30px 0;
-}
-.col-2{
-    flex-basis: 50%;
-    min-width: 300px;
-}
-.col-2 img{
-    max-width: 100%;
-    padding: 50px 0;
-   
-}
-.col-2 h1{
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
-}
-.btn{
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 30px;
-    background: #ff523b;
-    border-radius: 30px;
-    margin-top: 50px;
-    transition: all 0.5s;
-    
-     
-   
-}
-
-.btn:hover{
-background: #563534;
-color: white;
-
-
-}
-
-
-
-/* Categoeis section */
-.categories{
-    margin: 70px 0;
-
-   
-}
-.col-3{
-    flex-basis: 30%;
-    min-width: 250;
-    margin-bottom: 30px;
-}
-.col-3 img{
-    width: 100%;
-}
-.samll-container{
-    max-width: 1080px;
-    margin: auto;
-    padding: 0 25px;
-}
-.row{
-    display: flex;
-    justify-content: space-around;
-}
-.col-4{
-    width: 100%;
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
-
-}
-.feature_products_container{
-    padding: 0 100px;
     text-align: center;
+
 }
-.feature_products_container h1{
-    margin-bottom: 30px;
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    padding: 4px 6px;
+    background-color: pink;
+    color: black;
+    border-radius: 5px;
 }
-.products_container{
- display: flex;
- justify-content: space-around;
- flex-wrap: wrap;
-   
+
+/* amazon_site */
+#amazon_site{
+    padding: 120px 30px;
+    background-color: green;
 }
-.products_container img{
-    width: 320px;
-    height: 200px;
-    flex-basis: 10%;
-    
- 
+#bag_site{
+    padding: 200px 30px;
+    background-color: black;
+    border-radius: 20px;
 }
-.product-item{
-    margin-right: 10px;
-    flex-wrap: wrap;
-    flex-basis:25%;
+section{
+    border-radius: 20px;
+}
+iframe{
+    border-radius: 20px;
 }
