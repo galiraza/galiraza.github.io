@@ -1,0 +1,18 @@
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+    #nabar {
+        width: 100%; 
+        background-color: green;  
+        height: auto;      
+    }
+    #nabar .wrapper{
+        padding: 0 10px;
+        flex-direction: column;
+       
+    }
+    .nav-links li{
+        display: none;
+    }
+
+    
+    
+  }
