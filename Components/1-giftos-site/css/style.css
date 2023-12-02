@@ -208,6 +208,8 @@ body {
 .saving_section{
     width: 100%;
     padding-top: 45px;
+
+
     background-color: #7fd7eb;
     color: #ffffff;
     border-radius: 15px;
@@ -475,11 +477,17 @@ font-size: 1rem;
 
   .saving_section{
     margin: 0;
-    padding: 0;
+    padding: 0 10%;
+   margin-bottom: 30px;
+
+
   }
   .saving_content_container{
     flex-direction: column;
-    padding: 20px;
+   
+  }
+  .saving_content_container_left{
+    padding: 0;
   }
   .saving_content_container h1{
     font-size: 1.5rem;
@@ -494,7 +502,7 @@ font-size: 1rem;
   .why_section_container{
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 50px 10%;
     height: auto;
   }
   .box_container_why_section{
@@ -507,10 +515,13 @@ font-size: 1rem;
     flex-direction: column;
   }
   .gift_left{
-    width: 70%;
+    width: 80%;
+  }
+  .buy_now_btn{
+    margin-bottom: 20px;
   }
   .gift_right{
-    width: 80%;
+    width: 90%;
   }
   .gift_right h2{
     margin-top: 10px;
