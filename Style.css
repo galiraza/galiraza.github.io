@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+#nabar{
     background-color: #242526;
     position: fixed;
     padding: 0 30px;
@@ -11,9 +11,8 @@ nav{
     z-index: 999;
     height: 65px;
     line-height: 65px;
-
 }
-nav .wrapper{
+#nabar .wrapper{
     max-width: 1250px;
     padding: 0 30px;
     margin: auto;
@@ -72,3 +71,4 @@ nav .wrapper{
     visibility: visible;
     transition: all .3s ease;
 }
+
