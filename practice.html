@@ -1,22 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-Project Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Categories</title>
 </head>
 <body>
 
-<h1>Welcome to My Multi-Project Page</h1>
+<div class="hp-mod-card card-categories J_Categories J_NavChangeHook" data-module-id="categories" id="hp-categories" data-spm="categories" data-spm-max-idx="16">
+  <div class="hp-mod-card-header">
+    <h3 class="hp-mod-card-title">Categories</h3>
+  </div>
+  <div class="hp-mod-card-content J_CategoriesItems">
+    <div class="card-categories-ul">
 
-<!-- First Project iframe -->
-<iframe src="index.html" width="100%" height="400" frameborder="0"></iframe>
+      <div class="card-categories-li hp-mod-card-hover align-left">
+        <a href="#">
+          <div class="card-categories-image-container">
+            <img class="image" src="https://static-01.daraz.pk/p/c35e3e7403e5e58ebc0ba1732f580fc3.jpg" alt="Like New Airbuds">
+          </div>
+          <div class="card-categories-name">
+            <span class="text">Like New Airbuds</span>
+          </div>
+        </a>
+      </div>
 
-<!-- Second Project iframe -->
-<iframe src="index.html" width="100%" height="400" frameborder="0"></iframe>
+      <!-- Repeat similar structure for other categories -->
 
-<!-- Third Project iframe -->
-<iframe src="index.html" width="600" height="400" frameborder="0"></iframe>
+      <div class="card-categories-li hp-mod-card-hover align-left">
+        <a href="#">
+          <div class="card-categories-image-container">
+            <img class="image" src="https://static-01.daraz.pk/p/6bddf5f0ede42f16eeb32c28f3f1d172.jpg" alt="Card Holders">
+          </div>
+          <div class="card-categories-name">
+            <span class="text">Card Holders</span>
+          </div>
+        </a>
+      </div>
+      <div class="card-categories-li hp-mod-card-hover align-left">
+        <a href="#">
+          <div class="card-categories-image-container">
+            <img class="image" src="https://static-01.daraz.pk/p/6bddf5f0ede42f16eeb32c28f3f1d172.jpg" alt="Card Holders">
+          </div>
+          <div class="card-categories-name">
+            <span class="text">Card Holders</span>
+          </div>
+        </a>
+      </div>
+      <div class="card-categories-li hp-mod-card-hover align-left">
+        <a href="#">
+          <div class="card-categories-image-container">
+            <img class="image" src="https://static-01.daraz.pk/p/6bddf5f0ede42f16eeb32c28f3f1d172.jpg" alt="Card Holders">
+          </div>
+          <div class="card-categories-name">
+            <span class="text">Card Holders</span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hp-mod-card {
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 10px;
+}
+
+.hp-mod-card-title {
+  margin: 0;
+}
+
+.card-categories-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-categories-li {
+flex-basis: 15%;
+height: 30%;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.card-categories-li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.card-categories-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-categories-name {
+  margin-top: 10px;
+}
+
+</style>
 
 </body>
 </html>
