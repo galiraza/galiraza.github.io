@@ -1,0 +1,6 @@
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+ .Hero{
+    flex-direction: column;
+    padding: 10px 10%;
+ }
+  }

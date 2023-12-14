@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+Header{
+    padding: 12px;
+    padding: 10px 30%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Hero{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 30%;
+}
+.hero_box{
+    padding: 5px ;
+    background-color: red;
+    flex-basis: 27%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
